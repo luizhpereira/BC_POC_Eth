@@ -1,0 +1,29 @@
+{
+    "terminalSerialNumber": "001",
+    "terminalRestartValue": "CONNECTED",
+    "scaleSerialNumber": "001",
+    "scaleStatus": "OK",
+    "scaleGross": 6000,
+    "scaleNet": 0,
+    "cells": [{
+        "cellSerialNumber": "C001",
+        "cellWeight": 1100
+    }, {
+        "cellSerialNumber": "C002",
+        "cellWeight": 900
+    }, {
+        "cellSerialNumber": "C003",
+        "cellWeight": 1400
+    }, {
+        "cellSerialNumber": "C004",
+        "cellWeight": 600
+    }, {
+        "cellSerialNumber": "C005",
+        "cellWeight": 700
+    }, {
+        "cellSerialNumber": "C006",
+        "cellWeight": 1300
+    }],
+    "ticketID": "efc509f9-afa5-412a-a6c8-61d5a5f5f170",
+    "timestamp": "16-setembro-2021 03:06:39"
+}
