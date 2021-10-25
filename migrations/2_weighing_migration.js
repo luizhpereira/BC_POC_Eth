@@ -1,5 +1,5 @@
 const Weighing = artifacts.require("Weighing");
 
 module.exports = function (deployer) {
-  deployer.deploy(Weighing, "{weighingID: XPTO}");
+  deployer.deploy(Weighing, "Put your weighing ticket here");
 };

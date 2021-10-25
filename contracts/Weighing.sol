@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >= 0.8 .7 < 0.9 .0;
+pragma solidity >= 0.8.7 < 0.9.0;
 
 contract Weighing {
+
+address public owner = msg.sender;
 
 string public ticket;
 
@@ -9,7 +11,7 @@ string public ticket;
         ticket = _ticket;
     }
 
-    function get() public view returns (string memory) {
+    function getTicket() public view returns (string memory) {
         return ticket;
     }
 
@@ -17,7 +19,4 @@ string public ticket;
         ticket = _ticket;
     }
 
-    // function get() public view returns(string memory) {
-    //     return _ticket;
-    // }
 }
