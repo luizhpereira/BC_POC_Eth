@@ -3,20 +3,10 @@ pragma solidity >= 0.8.7 < 0.9.0;
 
 contract WTicket {
 
-string public ticket;
-    
+string public ticket;    
 
     address public owner = msg.sender;
     uint public last_completed_migration;
-    // uint public ticketCount = 0;
-
-    // struct Ticket {
-    //     uint id;
-    //     string content;
-    //     bool completed;
-    // }
-
-    // mapping(uint => Ticket) public tickets;
 
     constructor (string memory _ticket) {
         ticket = _ticket;
