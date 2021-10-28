@@ -5,8 +5,18 @@ contract WTicket {
 
 string public ticket;
     
+
     address public owner = msg.sender;
     uint public last_completed_migration;
+    // uint public ticketCount = 0;
+
+    // struct Ticket {
+    //     uint id;
+    //     string content;
+    //     bool completed;
+    // }
+
+    // mapping(uint => Ticket) public tickets;
 
     constructor (string memory _ticket) {
         ticket = _ticket;
