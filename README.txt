@@ -30,6 +30,16 @@ watch     Watch filesystem for changes and rebuild the project automatically
 #####test lines ultralight weighing ticket example
 si|0|w|35465|ci|0|r|148456,9|t|21,3|p|10,1|v|5,0|sn|09050065-032709050065-0327|sv|v4910121.3
 #
+si = identificador do terminald e pesagem
+w = peso
+ci = identificador da célula de carga em relação ao terminal de pesagem
+r = raw data da célula de carga
+t = temperatura da célula de carga
+p = tensão de alimentação da célula de carga
+v = tensão interna da célula de carga
+sn = número de série da célula de carga
+sv = versão do software da célula de carga
+#
 #####provide WTicket contract instance
 let instance = await WTicket.deployed();
 instance = await WTicket.deployed();
