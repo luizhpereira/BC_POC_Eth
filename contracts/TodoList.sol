@@ -14,7 +14,7 @@ contract TodoList {
   event TaskCompleted(uint id, bool completed);
   
   constructor() public {
-    createTask("Default Task");
+    createTask("Default Weighing Ticket");
   }
 
   function createTask(string memory _content) public {
